@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<meta  name="apple-mobile-web-app-capable" content="yes">
+	<meta  name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta  name="apple-mobile-web-app-title" content="css3">
+	<!---->
+	<meta  name="mobile-web-app-capable" content="yes">
+	<meta  name="application-name" content="black">
+	<meta  name="theme-color" content="#97785C">
+	<link rel="icon" sizes="192*192" href="logo.jpg" />
+	<!---->
+	<link rel="apple-touch-icon" href="logo.jpg" />
+	<link rel="stylesheet" href="css/todu.css">
+	<script src='js/jquery.js'></script>
+	<script src='js/index.js'></script>
+</head>
+<style type="text/css">
+	 @font-face {font-family: "iconfont";
+          src: url('icon/iconfont.eot'); /* IE9*/
+          src: url('icon/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('icon/iconfont.woff') format('woff'), /* chrome, firefox */
+          url('icon/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+          url('icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+
+        .iconfont {
+          font-family:"iconfont" !important;
+          font-size:16px;
+          font-style:normal;
+          -webkit-font-smoothing: antialiased;
+          -webkit-text-stroke-width: 0.2px;
+          -moz-osx-font-smoothing: grayscale;
+        }
+</style>
+<body>
+	<div class='box'>
+		<div class='header'>
+			<div class='touxiang'>&#xe616;</div>
+			<div class='xx'>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class='date'>
+			<input type="text" />
+			<div class='add'>+</div>
+		</div>
+		<div class='bg'>
+			<ul class='todolist'>
+				<!--<li>
+					<div class='line'>
+						<p></p>
+						<div class='b'></div>
+						
+					</div>
+					<div class='content'></div>
+					<div class='list'>X</div>
+				</li>-->
+			</ul>
+		</div>
+		<div class='footer'>
+			<div data-role='all' class='active'><a>&#xe61e;</a>全部</div>
+			<div data-role='finish'><a>&#xe67f;</a>已完成</div>
+			<div data-role='unfinish'><a>&#xe622;</a>未完成</div>
+		</div>
+	</div>
+</body>
+</html>
